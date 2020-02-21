@@ -23,7 +23,7 @@ decoded_message = crypto.decode_message(encoded, keys, crypto_func)
 
 **Example:**
 	
-Encode message
+Encode message:
 
     from FeistelBlockCipher import FeistelBlockCipher
     
