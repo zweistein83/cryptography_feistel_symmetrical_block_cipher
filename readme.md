@@ -12,7 +12,7 @@ encoded_message = crypto.encode_message(message, keys, crypto_func)
 
 - **message:** message that should be encoded as a string.
 - **keys:** keys used for encryption as a list of strings. Each key should be unique.
-- - **crypto_func** (optional): You can pass any cryptographical function that returns bytes. Must also take 2 inputs (message, key). Default is salted md5 which uses key as salt.
+- **crypto_func** (optional): You can pass any cryptographical function that returns bytes. Must also take 2 inputs (message, key). Default is salted md5 which uses key as salt.
 
 **Decode message:**
  
