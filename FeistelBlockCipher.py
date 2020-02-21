@@ -6,6 +6,9 @@ import hashlib
 class FeistelBlockCipher:
 
     def __init__(self, padding_char="@", text_encoding="utf-8"):
+        if len(padding_char) != 1:
+            raise ValueError("Length of padding character must be 1")
+
         self.padding_char = padding_char
         self.text_encoding = text_encoding
 
